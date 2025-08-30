@@ -1,0 +1,41 @@
+# This repository should only contain built files
+# Source code is in private repository
+
+# Development files
+node_modules/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build artifacts
+build/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Source code (should not be here)
+src/
+package.json
+package-lock.json
+vite.config.ts
+tsconfig.json
+*.md
+!README.md
